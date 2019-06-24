@@ -1,0 +1,63 @@
+git note list added from: https://www.liaoxuefeng.com/wiki/896043488029600
+
+
+https://github.com/Zhangguoliu/learngit
+
+https://github.com/seeways/GitLearn
+
+http://files.cnblogs.com/ma6174/git-tutor.pdf
+
+https://github.com/iuuan/learngit/blob/master/learning-note.md
+
+https://github.com/hongiii/gitNotes_from_Liao/blob/master/gitNotes_from_Liao.md
+
+https://github.com/zmdstr/learning_git_from_liao/blob/master/%E5%AE%89%E8%A3%85git_%E5%AE%9E%E8%B7%B5.md
+
+https://xiaolvyun.baidu.com 
+
+https://github.com/lililuni/GitStudy
+
+https://git-scm.com/book/zh/v2
+
+https://github.com/yanqiangsjz/git-study
+
+https://github.com/iuuan/learngit
+
+https://github.com/MalikCheng/learngit/blob/master/git_learnmichaelliao_blog.md
+
+https://github.com/zmdstr/learning_git_from_liao
+
+https://github.com/HuChanghong/learngit
+https://github.com/HuChanghong/MarkdownStudy/blob/master/EvernoteMarkdown.md
+
+https://aipynux.github.io/2019/02/24/%E5%BB%96%E9%9B%AA%E5%B3%B0Git%E6%95%99%E7%A8%8B%E7%AC%94%E8%AE%B0/
+
+https://git-scm.com/
+
+https://github.com/michaelliao/learngit
+
+
+
+
+vi & vim 有两种工作模式：
+
+    （1） 命令模式：接受、执行 vi & vim 操作命令的模式，打开文件后的默认模式；
+    （2） 编辑模式：对打开的文件内容进行 增、删、改 操作的模式； 在编辑模式下按下 ESC 键，回退到命令模式。
+
+创建、打开文件：$ vi [filename]
+
+    （1）使用 vi 加 文件路径（或文件名）的模式打开文件，如果文件存在则打开现有文件，如果文件不存在则新建文件，并在终端最下面一行显示打开的是一个新文件。
+    （2）键盘输入字母 “i”或“Insert”键进入最常用的插入编辑模式。
+
+保存文件：
+
+    （1）在插入编辑模式下编辑文件。
+    （2）按下 “ESC” 键，退出编辑模式，切换到命令模式。
+    （3）在命令模式下键入"ZZ"或者":wq"保存修改并且退出 vi 。
+    （4）如果只想保存文件，则键入":w"，回车后底行会提示写入操作结果，并保持停留在命令模式。
+
+放弃所有文件修改：
+
+    （1）放弃所有文件修改：按下 "ESC" 键进入命令模式，键入 ":q!" 回车后放弃修改并退出vi。
+    （2）放弃所有文件修改，但不退出 vi ，即回退到文件打开后最后一次保存操作的状态，继续进行文件操作：按下 "ESC" 键进入命令模式，键入 ":e!" ，回车后回到命令模式
+
